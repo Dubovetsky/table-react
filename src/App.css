@@ -1,0 +1,56 @@
+.app {
+  margin: 0 auto;
+  display: grid;
+  width: auto;
+  max-width: 90%;
+  min-height: 100vh;
+  grid-template-areas:
+    'h h h'
+    'c c c'
+    'f f f';
+  grid-template-rows: 62px 3fr;
+  grid-template-columns: 140px 1fr 140px;
+  grid-gap: 2px;
+}
+
+th {
+  min-width: 50px;
+}
+td {
+  min-width: 50px;
+}
+.h {
+  grid-area: h;
+  display: inline-block;
+}
+.b {
+  grid-area: c;
+}
+
+.selector {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search {
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newRow {
+  padding: 10px;
+}
+
+.b {
+  display: inline-block;
+}
+.b1 {
+  float: left;
+}
+.b2 {
+  float: right;
+  margin-left: 5px;
+}
+
