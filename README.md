@@ -1,8 +1,8 @@
 Тестирование и отладка проводились с помощью 'console.log()' и 'debugger' на localhost (node.js). Код написан в VS-Code.
-Доп библиотеки: - {redux}, {react-redux} - написание функционального приложения в соответствии с single-responsibility principle,
-				- {lodash} - для обработки массива данных,
-				- {react-paginate} - для постраничного отображения данных,
-				- {react-bootstrap} - для верстки.
+Доп библиотеки:  {redux}, {react-redux} - написание функционального приложения в соответствии с single-responsibility principle,
+				 {lodash} - для обработки массива данных,
+				 {react-paginate} - для постраничного отображения данных,
+				 {react-bootstrap} - для верстки.
 Финальный билд запускается в Docker контейнере при помощи Docker-compose.
 
 ## Docker-compose
